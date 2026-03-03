@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_dark"
+    android:padding="32dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ClaudeOS Settings"
+        android:textSize="28sp"
+        android:textColor="@color/text_primary"
+        android:fontFamily="@font/space_grotesk_light"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ANTHROPIC API KEY"
+        android:textSize="11sp"
+        android:textColor="@color/accent_cyan"
+        android:fontFamily="@font/space_grotesk_regular"
+        android:letterSpacing="0.12"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/api_key_input"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/input_field_bg"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/text_primary"
+        android:textSize="14sp"
+        android:fontFamily="@font/space_grotesk_regular"
+        android:inputType="textPassword"
+        android:hint="sk-ant-..."
+        android:hintTextColor="@color/text_hint" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get your key at console.anthropic.com"
+        android:textSize="12sp"
+        android:textColor="@color/text_secondary"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Save"
+        android:textColor="@color/bg_dark"
+        android:textSize="15sp"
+        android:fontFamily="@font/space_grotesk_regular"
+        android:background="@drawable/send_button_bg"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Back to Launcher"
+        android:textColor="@color/text_secondary"
+        android:textSize="15sp"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- fonts/space_grotesk_light.xml -->
+<!-- 
+  Download Space Grotesk fonts from https://fonts.google.com/specimen/Space+Grotesk
+  and place the TTF files in app/src/main/res/font/:
+    - space_grotesk_light.ttf      (weight 300)
+    - space_grotesk_regular.ttf    (weight 400)
+    - space_grotesk_medium.ttf     (weight 500)
+  
+  Alternatively, use downloadable fonts by replacing @font references with 
+  android:fontFamily="sans-serif-light" etc.
+-->
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <!-- Google Fonts downloadable font -->
+    <font
+        app:fontProviderAuthority="com.google.android.gms.fonts"
+        app:fontProviderPackage="com.google.android.gms"
+        app:fontProviderQuery="Space Grotesk"
+        app:fontProviderCerts="@array/com_google_android_gms_fonts_certs" />
+
+</font-family>

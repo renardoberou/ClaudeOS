@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ClaudeOS</string>
+    <string name="hint_input">Ask anything or say what to open…</string>
+    <string name="welcome_message">Hi! I\'m ClaudeOS — your AI-powered launcher. Tell me what you want to do. Try: "Open Spotify", "Set alarm for 7am", or just ask anything.</string>
+</resources>
